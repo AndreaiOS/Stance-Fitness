@@ -1,7 +1,7 @@
 # Stance Fitness
 
-![IMG_1353 2](https://github.com/AndreaiOS/Stance-Fitness/assets/9194501/d7dcc5e1-b06f-4090-bf80-58971182121e)
-![IMG_1355](https://github.com/AndreaiOS/Stance-Fitness/assets/9194501/8e6228bf-4177-4d65-805b-00c918d49f40)
+<img src="https://github.com/AndreaiOS/Stance-Fitness/assets/9194501/d7dcc5e1-b06f-4090-bf80-58971182121e" alt="image" width="300" height="auto">
+<img src="https://github.com/AndreaiOS/Stance-Fitness/assets/9194501/8e6228bf-4177-4d65-805b-00c918d49f40" alt="image" width="300" height="auto">
 
 ## Objective
 

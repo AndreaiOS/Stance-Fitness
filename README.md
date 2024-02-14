@@ -36,7 +36,7 @@ Follow these instructions to get the app running on your local machine for devel
 
 * Clone the repository
 ```
-sh git clone https://example.com/StanceFitnessTest.git
+sh git clone git@github.com:AndreaiOS/Stance-Fitness.git
 cd StanceFitnessTest
 ```
 * Open the project in Xcode

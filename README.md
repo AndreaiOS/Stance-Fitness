@@ -1,5 +1,8 @@
 # Stance Fitness
 
+![IMG_1353 2](https://github.com/AndreaiOS/Stance-Fitness/assets/9194501/d7dcc5e1-b06f-4090-bf80-58971182121e)
+![IMG_1355](https://github.com/AndreaiOS/Stance-Fitness/assets/9194501/8e6228bf-4177-4d65-805b-00c918d49f40)
+
 ## Objective
 
 This iOS application demonstrates the use of SwiftUI, Combine, and CoreBluetooth frameworks to detect and manage Bluetooth device connections. It allows users to view the current Bluetooth status, refresh and scan for nearby Bluetooth devices, and manage connections with a simple and intuitive interface.

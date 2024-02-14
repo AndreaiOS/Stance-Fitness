@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A56AC8672B7CC1D800ED9080 /* BluetoothManagerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56AC8662B7CC1D800ED9080 /* BluetoothManagerExt.swift */; };
+		A56AC86B2B7CC56700ED9080 /* BluetoothManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56AC86A2B7CC56700ED9080 /* BluetoothManagerTests.swift */; };
+		A56AC86D2B7CCE0500ED9080 /* PeripheralProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56AC86C2B7CCE0500ED9080 /* PeripheralProtocol.swift */; };
+		A56AC8702B7CD3BB00ED9080 /* MockCentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56AC8682B7CC53400ED9080 /* MockCentralManager.swift */; };
+		A5D189752B7BE2580032ABCC /* Stance_FitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D189742B7BE2580032ABCC /* Stance_FitnessApp.swift */; };
+		A5D189772B7BE2580032ABCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D189762B7BE2580032ABCC /* ContentView.swift */; };
+		A5D189792B7BE2590032ABCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D189782B7BE2590032ABCC /* Assets.xcassets */; };
+		A5D1897C2B7BE2590032ABCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D1897B2B7BE2590032ABCC /* Preview Assets.xcassets */; };
+		A5D189A12B7BE2E00032ABCC /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D189A02B7BE2E00032ABCC /* BluetoothManager.swift */; };
+		A5D189A32B7BE4DA0032ABCC /* BluetoothStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D189A22B7BE4DA0032ABCC /* BluetoothStatusView.swift */; };
+		A5D189A52B7BE60B0032ABCC /* BluetoothDevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D189A42B7BE60B0032ABCC /* BluetoothDevicesView.swift */; };
+		A5D189A82B7BE7660032ABCC /* BluetoothDeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D189A72B7BE7660032ABCC /* BluetoothDeviceListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5D189822B7BE2590032ABCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5D189692B7BE2580032ABCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D189702B7BE2580032ABCC;
+			remoteInfo = "Stance Fitness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A56AC8662B7CC1D800ED9080 /* BluetoothManagerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManagerExt.swift; sourceTree = "<group>"; };
+		A56AC8682B7CC53400ED9080 /* MockCentralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCentralManager.swift; sourceTree = "<group>"; };
+		A56AC86A2B7CC56700ED9080 /* BluetoothManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManagerTests.swift; sourceTree = "<group>"; };
+		A56AC86C2B7CCE0500ED9080 /* PeripheralProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralProtocol.swift; sourceTree = "<group>"; };
+		A5D189712B7BE2580032ABCC /* Stance Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stance Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D189742B7BE2580032ABCC /* Stance_FitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stance_FitnessApp.swift; sourceTree = "<group>"; };
+		A5D189762B7BE2580032ABCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5D189782B7BE2590032ABCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5D1897B2B7BE2590032ABCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5D189812B7BE2590032ABCC /* Stance FitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stance FitnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D1899E2B7BE26E0032ABCC /* Stance Fitness.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Stance Fitness.xctestplan"; sourceTree = "<group>"; };
+		A5D189A02B7BE2E00032ABCC /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		A5D189A22B7BE4DA0032ABCC /* BluetoothStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothStatusView.swift; sourceTree = "<group>"; };
+		A5D189A42B7BE60B0032ABCC /* BluetoothDevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDevicesView.swift; sourceTree = "<group>"; };
+		A5D189A72B7BE7660032ABCC /* BluetoothDeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceListView.swift; sourceTree = "<group>"; };
+		A5D189A92B7BEA2D0032ABCC /* Stance-Fitness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Stance-Fitness-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D1896E2B7BE2580032ABCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D1897E2B7BE2590032ABCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A56AC86F2B7CD38500ED9080 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				A56AC8682B7CC53400ED9080 /* MockCentralManager.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		A5D189682B7BE2580032ABCC = {
+			isa = PBXGroup;
+			children = (
+				A5D189732B7BE2580032ABCC /* Stance Fitness */,
+				A5D189842B7BE2590032ABCC /* Stance FitnessTests */,
+				A5D189722B7BE2580032ABCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D189722B7BE2580032ABCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D189712B7BE2580032ABCC /* Stance Fitness.app */,
+				A5D189812B7BE2590032ABCC /* Stance FitnessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D189732B7BE2580032ABCC /* Stance Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				A5D189A92B7BEA2D0032ABCC /* Stance-Fitness-Info.plist */,
+				A56AC86F2B7CD38500ED9080 /* Mocks */,
+				A5D189A62B7BE6B80032ABCC /* Views */,
+				A5D1899F2B7BE2C80032ABCC /* Managers */,
+				A5D189742B7BE2580032ABCC /* Stance_FitnessApp.swift */,
+				A5D189782B7BE2590032ABCC /* Assets.xcassets */,
+				A5D1897A2B7BE2590032ABCC /* Preview Content */,
+			);
+			path = "Stance Fitness";
+			sourceTree = "<group>";
+		};
+		A5D1897A2B7BE2590032ABCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5D1897B2B7BE2590032ABCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5D189842B7BE2590032ABCC /* Stance FitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5D1899E2B7BE26E0032ABCC /* Stance Fitness.xctestplan */,
+				A56AC86A2B7CC56700ED9080 /* BluetoothManagerTests.swift */,
+			);
+			path = "Stance FitnessTests";
+			sourceTree = "<group>";
+		};
+		A5D1899F2B7BE2C80032ABCC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A5D189A02B7BE2E00032ABCC /* BluetoothManager.swift */,
+				A56AC86C2B7CCE0500ED9080 /* PeripheralProtocol.swift */,
+				A56AC8662B7CC1D800ED9080 /* BluetoothManagerExt.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A5D189A62B7BE6B80032ABCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5D189762B7BE2580032ABCC /* ContentView.swift */,
+				A5D189A72B7BE7660032ABCC /* BluetoothDeviceListView.swift */,
+				A5D189A22B7BE4DA0032ABCC /* BluetoothStatusView.swift */,
+				A5D189A42B7BE60B0032ABCC /* BluetoothDevicesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D189702B7BE2580032ABCC /* Stance Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D189952B7BE2590032ABCC /* Build configuration list for PBXNativeTarget "Stance Fitness" */;
+			buildPhases = (
+				A5D1896D2B7BE2580032ABCC /* Sources */,
+				A5D1896E2B7BE2580032ABCC /* Frameworks */,
+				A5D1896F2B7BE2580032ABCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stance Fitness";
+			productName = "Stance Fitness";
+			productReference = A5D189712B7BE2580032ABCC /* Stance Fitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5D189802B7BE2590032ABCC /* Stance FitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D189982B7BE2590032ABCC /* Build configuration list for PBXNativeTarget "Stance FitnessTests" */;
+			buildPhases = (
+				A5D1897D2B7BE2590032ABCC /* Sources */,
+				A5D1897E2B7BE2590032ABCC /* Frameworks */,
+				A5D1897F2B7BE2590032ABCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D189832B7BE2590032ABCC /* PBXTargetDependency */,
+			);
+			name = "Stance FitnessTests";
+			productName = "Stance FitnessTests";
+			productReference = A5D189812B7BE2590032ABCC /* Stance FitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D189692B7BE2580032ABCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A5D189702B7BE2580032ABCC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A5D189802B7BE2590032ABCC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A5D189702B7BE2580032ABCC;
+					};
+				};
+			};
+			buildConfigurationList = A5D1896C2B7BE2580032ABCC /* Build configuration list for PBXProject "Stance Fitness" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D189682B7BE2580032ABCC;
+			productRefGroup = A5D189722B7BE2580032ABCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D189702B7BE2580032ABCC /* Stance Fitness */,
+				A5D189802B7BE2590032ABCC /* Stance FitnessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D1896F2B7BE2580032ABCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D1897C2B7BE2590032ABCC /* Preview Assets.xcassets in Resources */,
+				A5D189792B7BE2590032ABCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D1897F2B7BE2590032ABCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D1896D2B7BE2580032ABCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D189772B7BE2580032ABCC /* ContentView.swift in Sources */,
+				A56AC86D2B7CCE0500ED9080 /* PeripheralProtocol.swift in Sources */,
+				A5D189A82B7BE7660032ABCC /* BluetoothDeviceListView.swift in Sources */,
+				A5D189A32B7BE4DA0032ABCC /* BluetoothStatusView.swift in Sources */,
+				A56AC8672B7CC1D800ED9080 /* BluetoothManagerExt.swift in Sources */,
+				A5D189A12B7BE2E00032ABCC /* BluetoothManager.swift in Sources */,
+				A5D189A52B7BE60B0032ABCC /* BluetoothDevicesView.swift in Sources */,
+				A5D189752B7BE2580032ABCC /* Stance_FitnessApp.swift in Sources */,
+				A56AC8702B7CD3BB00ED9080 /* MockCentralManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D1897D2B7BE2590032ABCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56AC86B2B7CC56700ED9080 /* BluetoothManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5D189832B7BE2590032ABCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D189702B7BE2580032ABCC /* Stance Fitness */;
+			targetProxy = A5D189822B7BE2590032ABCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5D189932B7BE2590032ABCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5D189942B7BE2590032ABCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D189962B7BE2590032ABCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stance Fitness/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GH7D2H8MW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stance-Fitness-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "theappsdoctor.Stance-Fitness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5D189972B7BE2590032ABCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stance Fitness/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GH7D2H8MW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stance-Fitness-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "theappsdoctor.Stance-Fitness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5D189992B7BE2590032ABCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GH7D2H8MW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "theappsdoctor.Stance-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stance Fitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stance Fitness";
+			};
+			name = Debug;
+		};
+		A5D1899A2B7BE2590032ABCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GH7D2H8MW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "theappsdoctor.Stance-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stance Fitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stance Fitness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D1896C2B7BE2580032ABCC /* Build configuration list for PBXProject "Stance Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D189932B7BE2590032ABCC /* Debug */,
+				A5D189942B7BE2590032ABCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D189952B7BE2590032ABCC /* Build configuration list for PBXNativeTarget "Stance Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D189962B7BE2590032ABCC /* Debug */,
+				A5D189972B7BE2590032ABCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D189982B7BE2590032ABCC /* Build configuration list for PBXNativeTarget "Stance FitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D189992B7BE2590032ABCC /* Debug */,
+				A5D1899A2B7BE2590032ABCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5D189692B7BE2580032ABCC /* Project object */;
+}

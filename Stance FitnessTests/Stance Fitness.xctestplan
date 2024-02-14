@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "458C6178-A8FA-403C-8A98-BD0792733AE8",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Stance Fitness.xcodeproj",
+      "identifier" : "A5D189702B7BE2580032ABCC",
+      "name" : "Stance Fitness"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Stance Fitness.xcodeproj",
+        "identifier" : "A5D189802B7BE2590032ABCC",
+        "name" : "Stance FitnessTests"
+      }
+    }
+  ],
+  "version" : 1
+}
